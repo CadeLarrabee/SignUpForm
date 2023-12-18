@@ -15,9 +15,11 @@
 .leftBanner {
   display: flex;
   flex-direction: column;
-  background-image: url("/Images/German.jpg");
-  justify-content: space-around;
   width: 33%;
+  background-image: url("German.jpg");
+  background-attachment: fixed;
+  background-size: 33%;
+  justify-content: space-around;
 }
 
 .opacBanner {
