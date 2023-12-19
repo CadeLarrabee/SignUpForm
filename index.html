@@ -26,7 +26,60 @@
       </div>
       <div class="formWrapper">
         <div class="formHeader"></div>
-        <div class="form"></div>
+        <div class="formInnerWrapper">
+          <div class="form">
+            <div class="formText">
+              <h1>Let's do this!</h1>
+            </div>
+            <form action="/submit_form" method="post">
+              <!-- form elements go here -->
+              <div class ="formRow">
+              <div class="formholder">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" />
+              </div>
+              <div class="formholder">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" />
+              </div>
+              </div>
+              <div class ="formRow">
+              <div class="formholder">
+                <label for="email">Email:    </label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              
+              <div class="formholder">
+                <label for="phone">Phone Number:</label>
+
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  placeholder="123-456-7890"
+                  required
+                />
+                </div>
+              </div>
+              <div class ="formRow">
+              <div class="formholder">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+              </div>
+              <div class="formholder">
+              <label for="confirmPassword">Confirm Password:</label>
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+              />
+              </div>
+              </div>
+            </form>
+            </div>
+          </div>
+        </div>
         <div class="formFooter">
           <button class="signUpBtn"></button>
           <p class="logIn"><a href="" class="linkSignIn"> </a></p>

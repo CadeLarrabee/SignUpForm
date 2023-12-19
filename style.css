@@ -50,9 +50,31 @@
 .formHeader {
   background-color: orange;
 }
-.form {
-  background-color: grey;
+.formInnerWrapper {
   height: 30%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.formRow {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.formholder {
+  display: flex;
+  flex-direction: column;
 }
 .formFooter {
   background-color: purple;
