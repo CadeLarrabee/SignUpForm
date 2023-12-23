@@ -18,7 +18,9 @@
   width: 33%;
   background-image: url("Images/German.jpg");
   background-attachment: fixed;
-  background-size: 33%;
+  background-size: 40%;
+  background-position: -5% 55%;
+  background-repeat: no-repeat;
 }
 
 .opacBanner {
@@ -64,25 +66,25 @@
 
 .formHeader {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .signUpText {
   font-size: 24px;
-  padding-left: 36px;
+  padding-left: 72px;
 }
 .formInnerWrapper {
   height: 30%;
+  width: 100%;
   background-color: #e3a58f;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
 .form {
   display: flex;
-  height: 100%;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -122,7 +124,7 @@ label {
   height: 40px;
   width: 220px;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 72px;
   border-style: none;
 }
 .germanImages {
