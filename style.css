@@ -1,7 +1,8 @@
 * {
   /*normal padding get lost, 
   https://css-tricks.com/reset-all-margins-padding/
-  says this is okay to do*/
+  says this is okay to do
+  adding test comment*/
   margin: 0;
   padding: 0;
 }
