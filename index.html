@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <script src="../javascript.js"></script>
     <title>Page Title</title>
   </head>
   <body>
@@ -57,7 +58,7 @@
               <div class ="formRow">
               <div class="formholder">
                 <label for="email">Email:    </label>
-                <input type="email" id="email" name="email" required />
+                <input type="email" id="email" name="email" required minlength="5" />
               </div>
               
               <div class="formholder">
@@ -76,7 +77,7 @@
               <div class ="formRow">
               <div class="formholder">
                 <label for="password">Password:</label>
-                <input type="password" id="password" name="password" />
+                <input type="password" id="password" name="password" minlength="3"/>
               </div>
               <div class="formholder">
               <label for="confirmPassword">Confirm Password:</label>
@@ -94,7 +95,7 @@
             </div>  
           </div>
         <div class="formFooter">
-          <button class="signUpBtn">Create account</button>
+          <button class="signUpBtn" onclick="addErrorClass()">Create account</button>
           <p class="logIn"><a href="" class="linkSignIn"> </a></p>
           <img src="/Images/bread.png" class = "germanImages">  
           </div>
